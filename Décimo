@@ -1,0 +1,17 @@
+Inicio 
+	var numero=0
+	var aux1
+	var suma=0
+	var suma2=0
+	mientras(suma<=1000)
+	suma=numero+suma
+		si(numero%6==0)
+			aux1++
+		finsi
+		mientras(numero<=10)
+		suma2=suma2+numero
+		finMientras
+	finMientras
+	mostrar(La cantidad de numeros multiplos de 6 "aux1")		
+	mostrar(La suma de numeros entre 1 y 10 es "suma2")
+fin
